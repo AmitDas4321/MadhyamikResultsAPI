@@ -4,7 +4,7 @@
 
 ---
 
-![WBBSE MadhyamikResultsAPI Banner](https://i.ibb.co/HDR2t8Yt/WBBSE-Madhyamik-Results-API.gif)
+![WBBSE MadhyamikResultsAPI Banner](https://i.ibb.co/9FzH0Rj/WBBSE-Madhyamik-Results-API.jpg)
 
 ---
 

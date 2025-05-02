@@ -1,12 +1,16 @@
-# 📘 MadhyamikResultsAPI
+# 📘 WBBSE MadhyamikResultsAPI
 
-**MadhyamikResultsAPI** is a high-performance, developer-friendly, and publicly accessible RESTful API that enables you to fetch the official results of the **West Bengal Board of Secondary Education (WBBSE)** Madhyamik (Class 10) examination for 2025. It delivers structured JSON responses using just the student's Roll Number and Date of Birth, making it an ideal solution for educational platforms, mobile apps, dashboards, and automation scripts.
+**WBBSE MadhyamikResultsAPI** is a high-performance, developer-friendly, and publicly accessible RESTful API that enables you to fetch the official results of the **West Bengal Board of Secondary Education (WBBSE)** Madhyamik (Class 10) examination for 2025. It delivers structured JSON responses using just the student's Roll Number and Date of Birth, making it an ideal solution for educational platforms, mobile apps, dashboards, and automation scripts.
 
 ---
 
-## 🔍 What is MadhyamikResultsAPI?
+![WBBSE MadhyamikResultsAPI Banner](https://via.placeholder.com/800x400?text=WBBSE+MadhyamikResultsAPI)
 
-MadhyamikResultsAPI is designed to simplify the process of retrieving examination results by offering a seamless integration experience. Whether you're building dashboards for schools, mobile apps for students, or automation tools for educational institutions, this API ensures accurate and real-time data delivery in a developer-friendly format.
+---
+
+## 🔍 What is WBBSE MadhyamikResultsAPI?
+
+WBBSE MadhyamikResultsAPI is designed to simplify the process of retrieving examination results by offering a seamless integration experience. Whether you're building dashboards for schools, mobile apps for students, or automation tools for educational institutions, this API ensures accurate and real-time data delivery in a developer-friendly format.
 
 ---
 
@@ -140,7 +144,7 @@ If invalid data is provided, the API will return an error response. For example:
 
 ## 💡 Use Cases
 
-MadhyamikResultsAPI is versatile and can be used in various scenarios, including but not limited to:
+WBBSE MadhyamikResultsAPI is versatile and can be used in various scenarios, including but not limited to:
 
 - **Educational Platforms**: Embed result-checking functionality on websites for students.
 - **Mobile Apps**: Allow students and parents to access results instantly on their devices.
@@ -170,8 +174,8 @@ This API is free for **educational** and **non-commercial** use. If you require 
 
 If you need assistance or have questions about integration, feel free to reach out to us:
 
-- 📧 Email: [support@linkpc.net](mailto:support@linkpc.net)
-- 🌐 Website: [https://linkpc.net](https://linkpc.net)
+- 📧 Email: [info@amitdas.site](mailto:info@amitdas.site)
+- 🌐 Website: [www.amitdas.site](http://www.amitdas.site)
 
 ---
 

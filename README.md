@@ -1,11 +1,17 @@
-```markdown
-# 📘 MadhyamikResultsAPI
-
-**MadhyamikResultsAPI** is a simple and fast REST API that provides WBBSE Madhyamik 2025 results using roll number and date of birth. Ideal for developers, educational portals, and result-checking apps. Returns structured JSON data instantly.
+Here is your **complete professional `README.md`** for **MadhyamikResultsAPI**, written fully in one section with no breaks:
 
 ---
 
-## 🖇️ Base URL
+```markdown
+# 📘 MadhyamikResultsAPI
+
+**MadhyamikResultsAPI** is a developer-friendly and publicly accessible RESTful API that allows you to fetch the official results of the West Bengal Board of Secondary Education (WBBSE) Madhyamik (Class 10) examination for the year 2025. This API is designed to provide quick and structured JSON responses using just the student's Roll Number and Date of Birth—ideal for educational platforms, dashboards, mobile apps, and automation scripts.
+
+## 🔍 What is MadhyamikResultsAPI?
+
+MadhyamikResultsAPI is a lightweight result-fetching API service built for developers, educators, and institutions. It connects to real-time result data and delivers responses in a clean JSON format suitable for use in frontend or backend integrations.
+
+## 🌐 Base Endpoint
 
 ```
 
@@ -13,20 +19,17 @@
 
 ```
 
----
+## ⚙️ How It Works
 
-## 📥 Usage
+1. The client sends a **GET request** to the API with two query parameters:
+   - `roll_no` — The student's official roll number.
+   - `dob` — The student's date of birth in `YYYY-MM-DD` format.
+2. The API processes the input, verifies the data, and returns the result in JSON format.
+3. If the inputs are incorrect, an appropriate error message is returned.
 
-### ✅ Required Parameters
+## 🛠️ How to Use
 
-| Parameter | Type   | Description                        |
-|-----------|--------|------------------------------------|
-| roll_no   | string | Student's Roll Number (e.g. `601382N0010`) |
-| dob       | string | Date of Birth in `YYYY-MM-DD` format (e.g. `2008-08-14`) |
-
----
-
-### 🔗 Example Request
+### 🔗 Example API Request
 
 ```
 
@@ -34,9 +37,16 @@ GET [https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll\_no=601382N0010\&dob=2
 
 ````
 
----
+> Replace `roll_no` and `dob` with actual student data.
 
-## 📤 JSON Response Example
+### ✅ Parameters
+
+| Parameter | Type   | Required | Description                                 |
+|-----------|--------|----------|---------------------------------------------|
+| roll_no   | string | Yes      | Student's Roll Number (e.g., 601382N0010)   |
+| dob       | string | Yes      | Date of Birth (format: YYYY-MM-DD)          |
+
+### 📤 Successful JSON Response
 
 ```json
 {
@@ -107,9 +117,7 @@ GET [https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll\_no=601382N0010\&dob=2
 }
 ````
 
----
-
-## ❌ Error Response
+### ❌ Error Response
 
 ```json
 {
@@ -118,34 +126,33 @@ GET [https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll\_no=601382N0010\&dob=2
 }
 ```
 
----
+## 💡 Use Cases
 
-## ⚙️ Use Cases
+* Educational result-checking websites
+* Mobile apps for students and guardians
+* School management systems
+* Chatbots and Telegram bots
+* Bulk result automation for institutions
 
-* Result Checking Portals
-* Educational Apps
-* School Dashboards
-* Bulk Automation Tools
-
----
-
-## 🚀 cURL Example
+## 🧪 cURL Test Example
 
 ```bash
 curl "https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll_no=601382N0010&dob=2008-08-14"
 ```
 
----
-
-## 📩 Contact
-
-Need help or want to contribute?
-
-📧 Email: [support@linkpc.net](mailto:support@linkpc.net)
-🌐 Website: [https://linkpc.net](https://linkpc.net)
-
----
-
 ## 📄 License
 
-This API is free for public and educational use. Commercial use requires permission.
+This API is free for **educational** and **non-commercial** use. For commercial licensing or bulk integrations, please contact the administrator.
+
+## 📬 Contact & Support
+
+Have questions or need integration help?
+
+* 📧 Email: [support@linkpc.net](mailto:support@linkpc.net)
+* 🌐 Website: [https://linkpc.net](https://linkpc.net)
+
+## 📌 Disclaimer
+
+This API is intended solely for informational and academic integration purposes. Ensure usage complies with applicable data privacy and legal requirements before deploying in production systems.
+
+```

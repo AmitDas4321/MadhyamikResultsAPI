@@ -62,11 +62,11 @@ Below is an example of a successful response with dummy data:
 {
   "status": "success",
   "data": {
-    "name": "RAHUL ROY",
+    "name": "AMIT DAS",
     "roll_number": "701482N0025",
     "registration_number": "6345078542",
-    "dob": "Sep. 15, 2008",
-    "school": "KOLKATA HIGH SCHOOL",
+    "dob": "Sep. 13, 2004",
+    "school": "GARGARIA SUBHAS HIGH SCHOOL",
     "subjects": [
       {
         "subject": "First Language",

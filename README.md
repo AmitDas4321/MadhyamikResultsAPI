@@ -38,7 +38,7 @@ https://api.linkpc.net/WBBSE/Madhyamik-Results/
 ### 🔗 Example API Request
 
 ```
-GET https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll_no=701482N0025&dob=2008-09-15
+GET https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll_no=810149A1519&dob=2004-09-13
 ```
 
 > Replace `roll_no` and `dob` with the actual student data.
@@ -63,7 +63,7 @@ Below is an example of a successful response with dummy data:
   "status": "success",
   "data": {
     "name": "AMIT DAS",
-    "roll_number": "701482N0025",
+    "roll_number": "810149A1519",
     "registration_number": "6345078542",
     "dob": "Sep. 13, 2004",
     "school": "GARGARIA SUBHAS HIGH SCHOOL",

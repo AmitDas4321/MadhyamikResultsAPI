@@ -159,7 +159,7 @@ WBBSE MadhyamikResultsAPI is versatile and can be used in various scenarios, inc
 You can test the API using the following `cURL` command:
 
 ```bash
-curl "https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll_no=701482N0025&dob=2008-09-15"
+curl "https://api.linkpc.net/WBBSE/Madhyamik-Results/?roll_no=810149A1519&dob=2004-09-13"
 ```
 
 ---
